@@ -240,7 +240,9 @@
 body {
   margin-left: 260px;
 }
-
+body.sidebar-collapsed {
+  margin-left: 0;
+}
 /* Responsive */
 @media (max-width: 768px) {
   .sidebar-fixed {
